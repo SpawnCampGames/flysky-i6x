@@ -12,8 +12,11 @@ The radio will either use **STM32** or **APM32** for newer versions.
 - **Channels:** 6-10 (default 6)  
 - **Wireless frequency:** 2.4GHz  
 - **Transmission power:** <20 dBm  
-- **Wireless protocol:** AFHDS 2A  
+- **Wireless protocol:** AFHDS 2A
+- **Modulation type:** GFSK
 - **Range:** 500 ～ 1500m
+- **Bands:** 135
+- **Bandwidth:** 500KHz
 - **Channel resolution:** 4096  
 - **Battery:** 1.5AA * 4  (Rated to 6v)
 - **Low voltage alarm:** ＜ 4.2V  
