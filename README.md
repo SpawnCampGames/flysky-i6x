@@ -10,7 +10,7 @@ The radio will either use **STM32** or **APM32** for newer versions.
 ## Basic Specifications 🔧
 - **Product Model:** FS- i6X  
 - **Channels:** 6-10 (default 6)  
-- **Wireless frequency:** 2.4GHz  
+- **Wireless frequency:** 2.408 - 2.475GHz (2.4GHz)
 - **Transmission power:** <20 dBm  
 - **Wireless protocol:** AFHDS 2A
 - **Modulation type:** GFSK
