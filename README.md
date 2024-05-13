@@ -61,7 +61,7 @@ The Flyksy-i6x RC Transmitter comes equipped with:
 - PIN **3** D-
 - PIN **4** D+
 
-![USBCable](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/FLyskyI6XUsbside.png)
+![USBCable](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/FLyskyI6XUsbSide.png)
 
 | ==== | === | === | ====  |
 |------|---|----|-----|
