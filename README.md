@@ -132,7 +132,7 @@ To access the Flysky-i6X Firmware Update Mode:
 
 ## Custom Firmware 💻
 ### OpenI6X (*OpenTX* for Flysky FS-i6X)
-Turn Flysky-i6x into a fully programmable radio, Unlocking its full potential & Adding support for additional protocols.
+Turn Flysky-i6x into a fully programmable radio - Unlocking its full potential & adding support for additional protocols. [^1]
 - [OpenI6X](https://github.com/OpenI6X/opentx) (Official Github Page)
 - [OpenTX for Flysky-I6X](https://www.rcgroups.com/forums/showthread.php?3916435-FlySky-I6X-port-of-OpenTX) (Official RCGroups Forum Post)
 
@@ -155,16 +155,13 @@ Comparison with original firmware:
 |------------------------|-------------------|---------------------------------|
 | Channels               | 6/10              | 16                              |
 | Mixers                 | 3                 | 32                              |
-| Models                 | 20                | 16 / unlimited[^1]               |
+| Models                 | 20                | 16 / unlimited[^2]               |
 | Protocols              | AFHDS, AFHDS2A, PPM | AFHDS2A, PPM, CRSF            |
 | Trainer                | PPM               | SBUS, PPM                       |
 | Logical switches       | x                 | ✓                               |
 | Global variables       | x                 | ✓                               |
 | Timers                 | x                 | ✓                               |
-| Voice annoucements     | x                 | [✓][^2]
-
-[^1]: Unlimited by using USB mass storage mode eeprom backup/restore.
-[^2]:  By adding [DFPlayer](https://github.com/OpenI6X/opentx/wiki/Modifications#dfplayer)
+| Voice annoucements     | x                 | [✓][^3]
 
 ### APM32 Tools (For Flashing)
 - APM32 Main Site: https://global.geehy.com/
@@ -188,3 +185,7 @@ Comparison with original firmware:
 
 <p align="center"><img src="https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/FlyskyI6X_Radio_ON.png"></p>
 <p align="center">- SpawnCampGames Electronics Division 2024 -</p>
+
+[^1]: Not officially supported by Flysky. Community run open-source firmware.
+[^2]: Unlimited by using USB mass storage mode eeprom backup/restore.
+[^3]: By adding [DFPlayer](https://github.com/OpenI6X/opentx/wiki/Modifications#dfplayer)
