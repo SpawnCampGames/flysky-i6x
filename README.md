@@ -33,7 +33,7 @@ The Fkysky-i6x transmitters utilize a 32-bit ARM microcontroller for functionall
 > Although, they may return to using the STM32 it's possible that they continue to use the APM32.
 > Except different DFU drivers, they function practically identical, and both can have their firmware flashed using binary programmers.
 
-❔ How to identify which microcontroller your Flysky-i6x has?
+[How to identify which microcontroller your Flysky-i6x has?](https://github.com/SpawnCampGames/flysky-i6x/blob/main/MCU.md)
 
 ## Storage Specifications
 | RAM Type          | Space     | 
