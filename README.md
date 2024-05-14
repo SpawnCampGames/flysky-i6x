@@ -5,8 +5,6 @@
 ## MCU (Microcontroller Unit)
 The radio will either use **STM32** or **APM32** for newer versions.
 
-
----
 ## Basic Specifications 🔧
 - **Product Model:** FS- i6X  
 - **Channels:** 6-10 (default 6)  
@@ -27,6 +25,12 @@ The radio will either use **STM32** or **APM32** for newer versions.
 - **Humidity range:** 20% -95%  
 - **Dimensions:** 174x89x190mm  
 - **Body weight:** 392g
+
+## Storage Specifications
+| RAM Type          | Space     | 
+|-------------------|-----------|
+| System RAM        | 16,384 B  |
+| Flash Memory      | 131,072 B |
 
 ## Switches 💡
 The Flyksy-i6x RC Transmitter comes equipped with:
@@ -70,8 +74,6 @@ The Flyksy-i6x RC Transmitter comes equipped with:
 |------|---|----|-----|
 | Ground | D+ | D- | Unused  |
 
----
-
 ### Hidden Factory / System Menu
 This menu is useful for calibrating the gimbal sticks on the Factory Firmware, testing inputs, or checking out the firmware.
 - Sticks adjust (Adjust gimbal sticks / reset center position) 
@@ -100,7 +102,6 @@ To access the Flysky-i6x Firmware Update Mode:
 
 ![FirmwareUpdateMode](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Blueprint_Flysky_FirmwareUp.png)
 
----
 ## Custom Firmware 💻
 ### [OpenI6X](https://github.com/OpenI6X/opentx) (*OpenTX* for Flysky FS-i6X)
 - turn Flysky-i6x into a programable radio, unlocking its full potential and adding support for additional protocols.
