@@ -1,6 +1,6 @@
 ![Flysky-i6x Blueprint](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Blueprint_Flysky.png)
 # FlySky i6X Radio Datasheet 🕹️
-**Unofficial Flysky-i6x Documentation**
+> **Unofficial Flysky-i6x Documentation**
 
 ## Basic Specifications 
 - **Product Model:** FS- i6X  
@@ -59,6 +59,8 @@ The Flyksy-i6x RC Transmitter comes equipped with:
 |-------------|----------|-----------------|-----------------|------------------|
 | 2-Way       | Upper    | 2v             | 5v             | 5v              |
 | 2-Way       | Lower    | 2v             | 2v             | 5v              |
+
+> VCC to all Terminals when Radio is **Off**
 
 ## Trainer Port / USB Connection 🎮
 - **PS2** / **[S-Video](https://en.wikipedia.org/wiki/S-Video)** style connector
