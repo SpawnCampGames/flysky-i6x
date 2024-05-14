@@ -77,7 +77,7 @@ To access the Flysky-i6x System Menu:
 1. Move both gimbals to the **lower left-hand corners.**
 2. While holding gimbals in position flip the *Power* switch to **On**
 
-![SystemMenu]()
+![SystemMenu](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Blueprint_Flysky_SystemMenu.png)
 
 ## [OpenI6X](https://github.com/OpenI6X/opentx) *OpenTX* for Flysky FS-i6X 
 - turn Flysky-i6x into a programable radio, unlocking its full potential and adding support for additional protocols.
