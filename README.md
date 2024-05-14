@@ -72,7 +72,20 @@ The Flyksy-i6x RC Transmitter comes equipped with:
 
 ---
 
-## Hidden / System Menu
+## Hidden Factory / System Menu
+This menu is useful for calibrating the gimbal sticks on the Factory Firmware, testing inputs, or checking out the firmware.
+- Sticks adjust (Adjust gimbal sticks / reset center position) 
+- Def sticks mode (Set default gimbal stick configuration / Mode1, Mode2 for example)
+- Key test (Screen for testing buttons on the radio)
+- LCD test (Sets screen solid black for a moment / Test for identifying bad pixels)
+- LCD brightness (Allows you to change LCD brightness / Technically the contrast)
+- Bind (Binds to available receivers / RXs)
+- RF frequency (Radio frequency settings / Allows selecting left or right antenna)
+- Voltage adjust (Adjust supply voltage readings)
+- Firmware ver. (Displays firmware version)
+- Firmware update (Enters firmware update mode)
+- Restart 
+
 To access the Flysky-i6x System Menu: 
 1. Move both gimbals to the **lower left-hand corners.**
 2. While holding gimbals in position flip the *Power* switch to **On**
