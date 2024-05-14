@@ -55,9 +55,11 @@ The Flyksy-i6x RC Transmitter comes equipped with:
 - **VRA:** Potentiometer (Variable Resistor)
 - **VRB:** Potentiometer (Variable Resistor)
 
-![Flysky-i6X Switch Front](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Flysky_Switch_Front.png)
+![Flysky-i6X Switch Front](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Flysky_Switch_Front.png)  
+Radio Front
 
-![Flysky-i6X Switch Back](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Flysky_Switch_Back.png)
+![Flysky-i6X Switch Back](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Flysky_Switch_Back.png)  
+Radio Back
 
 ### Switch Voltages
 | Switch Type | Position | White Wire | Green Wire  | Yellow Wire  |
