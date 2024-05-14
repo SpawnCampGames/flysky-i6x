@@ -64,17 +64,19 @@ The Flyksy-i6x RC Transmitter comes equipped with:
 - **PS2** / **[S-Video](https://en.wikipedia.org/wiki/S-Video)** style connector
 
 ![TrainerPort](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/FlyskyI6XTrainerPort.png)
+### Flysky-i6X Trainer-Port Pinout
+
+| Pin Number | Function | 
+|------------|----------|
+| 1          | PPM_OUT  | 
+| 2          | PPM_IN   | 
+| 3          | D-       | 
+| 4          | D+       | 
+
 ### 3 pins / wires are used for the Trainer/USB cable:
 - **D+** (Data) RX
 - **D-** (Data) TX
-- **Ground** (GND) Outer ring.
-
-### 4 connections from the back of radio:
-![USBCable](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/FlyskyI6XTrainerCable.png)
-- PIN **1** PPM_OUT
-- PIN **2** PPM_IN
-- PIN **3** D-
-- PIN **4** D+
+- **Ground** (GND) Outer ring
 
 ![USBCable](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/FlyskyI6XUsbSide.png)
 
