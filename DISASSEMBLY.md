@@ -1,12 +1,15 @@
 ## To Disassemble the Flysky-i6X
-> May void the warranty.
+> Disassembling may void the warranty.
 
 ![Flysky-i6X Disassembly](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/FlyskyI6X_Disassembly.png)
 
+**Instructions**
 1. Remove the (4) Phillips-head screws on the back of the radio.
 2. Carefully pry the housing apart by starting at the bottom.
 3. Angle the bottom of the back cover outwards to help release the (4) plastic tabs within the handle.
 4. (Optional) Disconnect the wiring (**Power** [P2] & **Trainer Port** [P1]) between the two parts to completely seperate the two halves.*
+
+**For reassembly follow in reverse.**
 
 > [!WARNING]
 > The back cover is connected by (2) wired connections.  
@@ -32,5 +35,5 @@ Which microcontoller does my Flysky-i6X have?
 ![Possible Flysky-i6X MCUs](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/FlyskyI6X_MCU.png)
 
 > [!Note]
-> Both MCUs provide identical functionallity for the Flysky-i6X.
+> Both MCUs provide identical functionallity for the Flysky-i6X.  
 > Both MCUs can be flashed with custom firmware.
