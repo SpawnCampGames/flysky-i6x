@@ -79,7 +79,7 @@ To access the Flysky-i6x System Menu:
 
 ![SystemMenu](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Blueprint_Flysky_SystemMenu.png)
 
-## [OpenI6X](https://github.com/OpenI6X/opentx) *OpenTX* for Flysky FS-i6X 
+## [OpenI6X](https://github.com/OpenI6X/opentx) (*OpenTX* for Flysky FS-i6X)
 - turn Flysky-i6x into a programable radio, unlocking its full potential and adding support for additional protocols.
 - ❓ [RC-Groups Forum OpenTX for Flysky](https://www.rcgroups.com/forums/showthread.php?3916435-FlySky-I6X-port-of-OpenTX)
 
