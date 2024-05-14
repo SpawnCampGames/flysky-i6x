@@ -82,7 +82,7 @@ The Flyksy-i6x RC Transmitter comes equipped with:
 |--------|----|----|---------|
 | Ground | D+ | D- | Unused  |
 
-### Hidden Factory / System Menu
+## Hidden Factory / System Menu
 This menu is useful for calibrating the gimbal sticks on the Factory Firmware, testing inputs, or checking out the firmware.
 - Sticks adjust (Adjust gimbal sticks / reset center position) 
 - Def sticks mode (Set default gimbal stick configuration / Mode1, Mode2 for example)
@@ -102,7 +102,7 @@ To access the Flysky-i6x System Menu:
 
 ![SystemMenu](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Blueprint_Flysky_SystemMenu.png)
 
-### Firmware Update Mode
+## Firmware Update Mode
 To access the Flysky-i6x Firmware Update Mode:
 1. Push the two **left-hand** trim buttons towards the LCD screen.
 2. While holding both trim buttons in position flip the *Power* switch to the **On** position.
@@ -111,7 +111,7 @@ To access the Flysky-i6x Firmware Update Mode:
 
 ## Custom Firmware 💻
 ### OpenI6X (*OpenTX* for Flysky FS-i6X)
-- Turn Flysky-i6x into a fully programmable radio, Unlocking its full potential & Adding support for additional protocols.
+Turn Flysky-i6x into a fully programmable radio, Unlocking its full potential & Adding support for additional protocols.
 - [OpenI6X](https://github.com/OpenI6X/opentx) (Official Github Page)
 - [OpenTX for Flysky-I6X](https://www.rcgroups.com/forums/showthread.php?3916435-FlySky-I6X-port-of-OpenTX) (Official RCGroups Forum Post)
 
