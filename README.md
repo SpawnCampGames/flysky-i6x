@@ -69,9 +69,16 @@ The Flyksy-i6x RC Transmitter comes equipped with:
 | ==== | === | === | ====  |
 |------|---|----|-----|
 | Ground | D+ | D- | Unused  |
-                   
 
 ---
+
+## Hidden / System Menu
+To access the Flysky-i6x System Menu: 
+1. Move both gimbals to the **lower left-hand corners.**
+2. While holding gimbals in position flip the *Power* switch to **On**
+
+![SystemMenu]()
+
 ## [OpenI6X](https://github.com/OpenI6X/opentx) *OpenTX* for Flysky FS-i6X 
 - turn Flysky-i6x into a programable radio, unlocking its full potential and adding support for additional protocols.
 - ❓ [RC-Groups Forum OpenTX for Flysky](https://www.rcgroups.com/forums/showthread.php?3916435-FlySky-I6X-port-of-OpenTX)
