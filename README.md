@@ -2,7 +2,7 @@
 # FlySky i6X Radio Datasheet 🕹️
 > **Unofficial Flysky-i6x Documentation**
 
-## Basic Specifications 
+## Radio's Factory Specifications 
 - **Product Model:** FS- i6X  
 - **Channels:** 6-10 (default 6)  
 - **Wireless frequency:** 2.408 - 2.475GHz (2.4GHz)
@@ -24,18 +24,20 @@
 - **Body weight:** 392g
 
 ## MCU (Microcontroller Unit)
-The Fkysky-i6x transmitters utilize a 32-bit ARM microcontroller for functionallity. Depending on when you purchased your radio it will use either:
+
+The Fkysky-i6x transmitter utilizes a 32-bit ARM microcontroller for functionallity. Depending on the date of purchase, it will use either:
 - The [STM32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html) Series MCU
 - The [APM32](https://global.geehy.com/product/fourth/M0+) Series MCU
 
-> [!NOTE]  
-> Newer versions of the radio use the APM32 as a replacement for the STM32.
-> Although, they may return to using the STM32 it's possible that they continue to use the APM32.
-> Except different DFU drivers, they function practically identical, and both can have their firmware flashed using binary programmers.
+> [!IMPORTANT]  
+> Some newer versions of the radio use the APM32 as a replacement for the STM32.  
+> Although, they may return to using the STM32 it's possible that they continue to use the APM32.  
+> Except for different DFU drivers they function the same and can, both, have their firmware flashed with binary programmers.
+>
+> [How to identify which microcontroller your Flysky-i6x has?](https://github.com/SpawnCampGames/flysky-i6x/blob/main/DISASSEMBLY.md#microcontroller-mcu-identification)
 
-[How to identify which microcontroller your Flysky-i6x has?](https://github.com/SpawnCampGames/flysky-i6x/blob/main/MCU.md)
 
-## Storage Specifications
+## Radio's Storage Specifications
 | RAM Type          | Space     | 
 |-------------------|-----------|
 | System RAM        | 16,384 B  |
