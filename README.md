@@ -1,6 +1,6 @@
 ![Flysky-i6x Blueprint](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Blueprint_Flysky.png)
-# FlySky i6X Radio Datasheet 🕹️
-> **Unofficial Flysky-i6x Documentation**
+# FlySky i6X RC Radio Datasheet 🕹️
+> **Unofficial Flysky-i6X Documentation**
 
 ## Factory Specifications 
 - **Product Model:** FS- i6X  
@@ -27,7 +27,7 @@
 
 ## MCU (Microcontroller Unit)
 
-The Fkysky-i6x RC Transmitter utilizes a 32-bit ARM microcontroller for functionallity. Depending on the date of purchase, it will use either:
+The Fkysky-i6X RC Transmitter utilizes a 32-bit ARM microcontroller for functionallity. Depending on the date of purchase, it will use either:
 - The [STM32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html) Series MCU
 - The [APM32](https://global.geehy.com/product/fourth/M0+) Series MCU
 
@@ -98,12 +98,12 @@ Radio Back
 | Ground | D+ | D- | Unused  |
 
 ---
-
-## Hidden Factory / System Menu
+## Hidden Menus
+### Hidden Factory / System Menu
 
 ![SystemMenu](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Blueprint_Flysky_SystemMenu.png)
 
-To access the Flysky-i6x System Menu: 
+To access the Flysky-i6X System Menu: 
 1. Move both gimbals to the **lower left-hand corners.**
 2. While holding gimbals in position flip the *Power* switch to the **On** position.
 
@@ -120,11 +120,11 @@ This menu is useful for calibrating the gimbals on the Factory Firmware, testing
 - Firmware update (Enters firmware update mode)
 - Restart 
 
-## Firmware Update Mode
+### Firmware Update Mode
 
 ![FirmwareUpdateMode](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Blueprint_Flysky_FirmwareUp.png)
 
-To access the Flysky-i6x Firmware Update Mode:
+To access the Flysky-i6X Firmware Update Mode:
 1. Push the two **left-hand** trim buttons towards the LCD screen.
 2. While holding both trim buttons in position flip the *Power* switch to the **On** position.
 
@@ -141,7 +141,7 @@ Turn Flysky-i6x into a fully programmable radio, Unlocking its full potential & 
 > Use caution when modifying your radio's firmware!
 > Done improperly can cause the device to become bricked!
 
-## Storage Specifications (OpenI6X / OpenTX Firmware)
+### Storage (OpenI6X / OpenTX Firmware)
 | RAM Type          | Used      | Max      | Remaining | Usage    |
 |-------------------|-----------|----------|-----------|----------|
 | System RAM        | 15,916 B  | 16,384 B | 468 B     | 97%      |
@@ -149,8 +149,8 @@ Turn Flysky-i6x into a fully programmable radio, Unlocking its full potential & 
 
 <sub>*Source: Openi6X GitHub Issues circa v1.11.1*</sub>
 
-## OpenI6X Features
-### Comparison with original firmware:
+### OpenI6X Features
+Comparison with original firmware:
 | Feature                | FlySky i6X        | OpenI6X                         |
 |------------------------|-------------------|---------------------------------|
 | Channels               | 6/10              | 16                              |
@@ -171,7 +171,20 @@ Turn Flysky-i6x into a fully programmable radio, Unlocking its full potential & 
 - Driver: https://global.geehy.com/uploads/tool/Dfu%20Driver.zip
 - DFU Programmer: https://global.geehy.com/uploads/tool/DFUProgrammer_English.msi
 
-## Restore After Flash
+### Restore After Flash
 - [Factory Flysky Firmware Update](https://www.flysky-cn.com/i6x-xiazai-1) (exe)
 - [Stock Firmware Download](https://github.com/OpenI6X/opentx/files/9311451/flysky_i6x_stock.zip) (zipped .bin)
 - [Restore Factory Firmware Flysky I6X](https://github.com/OpenI6X/opentx/discussions/385) (zipped package of .exe, .bin, and programmer)
+
+---
+
+> [!TIP]
+> **Contributions:**  
+> Either direct or indirect,
+> I'd like to **Thank** all the great sources through-out the web on the Flysky-i6 and i6x.  
+> You can find info and links to all of them here: 📌[Flysky I6X Help](https://github.com/SpawnCampGames/flysky-i6x/blob/main/HELP.md) page.
+
+---
+
+<p align="center"><img src="https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/FlyskyI6X_Radio_ON.png"></p>
+<p align="center">- SpawnCampGames Electronics Division 2024 -</p>
