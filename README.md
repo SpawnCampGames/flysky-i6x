@@ -2,9 +2,6 @@
 # FlySky i6X Radio Data Sheet 🕹️
 **Unofficial Flysky-i6x Documentation**
 
-## MCU (Microcontroller Unit)
-The radio will either use **STM32** or **APM32** for newer versions.
-
 ## Basic Specifications 🔧
 - **Product Model:** FS- i6X  
 - **Channels:** 6-10 (default 6)  
@@ -25,6 +22,15 @@ The radio will either use **STM32** or **APM32** for newer versions.
 - **Humidity range:** 20% -95%  
 - **Dimensions:** 174x89x190mm  
 - **Body weight:** 392g
+
+## MCU (Microcontroller Unit)
+The Fkysky-i6x utilizes a 32-bit microcontroller for its functionallity. Depending on when you purchased your radio it will use:
+- [STM32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html) Series MCU
+- [APM32](https://global.geehy.com/product/fourth/M0+) Series MCU
+Possibly due to chip shortages newer versions of the radio use the APM32 as a replacement for the STM32.
+They may go back to using STM32 but it is possible that they continue to use the APM32.
+Except for different drivers, the two function practically identical, and either/or can have their firmware flashed using binary programmers.
+❔How to identify which board your Flysky-i6x
 
 ## Storage Specifications
 | RAM Type          | Space     | 
@@ -52,16 +58,16 @@ The Flyksy-i6x RC Transmitter comes equipped with:
 | 2-Way       | Upper    | 2v             | 5v             | 5v              |
 | 2-Way       | Lower    | 2v             | 2v             | 5v              |
 
-## Trainer Port 🎮
+## Trainer Port / USB Connection 🎮
 - **PS2** / **[S-Video](https://en.wikipedia.org/wiki/S-Video)** style connector
 
 ![TrainerPort](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/FlyskyI6XTrainerPort.png)
-### 3 Pins are used for the Trainer/USB cable:
+### 3 pins / wires are used for the Trainer/USB cable:
 - **D+** (Data) RX
 - **D-** (Data) TX
 - **Ground** (GND) Outer ring.
 
-### 4 Connections
+### 4 connections from the back of radio:
 ![USBCable](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/FlyskyI6XTrainerCable.png)
 - PIN **1** PPM_OUT
 - PIN **2** PPM_IN
@@ -95,7 +101,6 @@ To access the Flysky-i6x System Menu:
 ![SystemMenu](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Blueprint_Flysky_SystemMenu.png)
 
 ### Firmware Update Mode
-
 To access the Flysky-i6x Firmware Update Mode:
 1. Push the two **left-hand** trim buttons towards the LCD screen.
 2. While holding both trim buttons in position flip the *Power* switch to the **On** position.
