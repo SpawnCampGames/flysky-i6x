@@ -21,10 +21,16 @@ Which microcontoller does my Flysky-i6X have?
 
 ![Flysky-i6X MCU Location](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/FlyskyI6X_MCU_Location.png)
 
-- If labelled STM32 with markings of the **ST MicroElectronics** and **ARM** logos:  
-Your radio is equipped with the [STM32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html) Series MCU
-
+#### APM32 (Left)
 - If labelled APM32 with markings of the **Gheey** and **arm** logos:  
-Your radio is equipped with the [APM32](https://global.geehy.com/product/fourth/M0+) Series MCU
+▶️ Your radio is equipped with the [APM32](https://global.geehy.com/product/fourth/M0+) Series MCU
+
+#### STM32 (Right)
+- If labelled STM32 with markings of the **ST MicroElectronics** and **ARM** logos:  
+▶️ Your radio is equipped with the [STM32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html) Series MCU
 
 ![Possible Flysky-i6X MCUs](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/FlyskyI6X_MCU.png)
+
+> [!Note]
+> Both MCUs provide identical functionallity for the Flysky-i6X.
+> Both MCUs can be flashed with custom firmware.
