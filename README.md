@@ -27,6 +27,7 @@
 The Fkysky-i6x utilizes a 32-bit microcontroller for its functionallity. Depending on when you purchased your radio it will use:
 - [STM32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html) Series MCU
 - [APM32](https://global.geehy.com/product/fourth/M0+) Series MCU
+
 Possibly due to chip shortages newer versions of the radio use the APM32 as a replacement for the STM32.
 They may go back to using STM32 but it is possible that they continue to use the APM32.
 Except for different drivers, the two function practically identical, and either/or can have their firmware flashed using binary programmers.
