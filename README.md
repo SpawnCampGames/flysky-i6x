@@ -1,8 +1,8 @@
 ![Flysky-i6x Blueprint](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Blueprint_Flysky.png)
-# FlySky i6X Radio Data Sheet 🕹️
+# FlySky i6X Radio Datasheet 🕹️
 **Unofficial Flysky-i6x Documentation**
 
-## Basic Specifications 🔧
+## Basic Specifications 
 - **Product Model:** FS- i6X  
 - **Channels:** 6-10 (default 6)  
 - **Wireless frequency:** 2.408 - 2.475GHz (2.4GHz)
@@ -43,7 +43,6 @@ The Fkysky-i6x transmitters utilize a 32-bit ARM microcontroller for functionall
 
 ## Switches 💡
 The Flyksy-i6x RC Transmitter comes equipped with:
-
 - **SWA:** 2-Position Switch
 - **SWB:** 2-Position Switch
 - **SWC:** 3-Position Switch
@@ -80,7 +79,7 @@ The Flyksy-i6x RC Transmitter comes equipped with:
 ![USBCable](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/FlyskyI6XUsbSide.png)
 
 | ==== | === | === | ====  |
-|------|---|----|-----|
+|--------|----|----|---------|
 | Ground | D+ | D- | Unused  |
 
 ### Hidden Factory / System Menu
@@ -111,16 +110,21 @@ To access the Flysky-i6x Firmware Update Mode:
 ![FirmwareUpdateMode](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Blueprint_Flysky_FirmwareUp.png)
 
 ## Custom Firmware 💻
-### [OpenI6X](https://github.com/OpenI6X/opentx) (*OpenTX* for Flysky FS-i6X)
-- turn Flysky-i6x into a programable radio, unlocking its full potential and adding support for additional protocols.
-- ❓ [RC-Groups Forum OpenTX for Flysky](https://www.rcgroups.com/forums/showthread.php?3916435-FlySky-I6X-port-of-OpenTX)
+### OpenI6X (*OpenTX* for Flysky FS-i6X)
+- Turn Flysky-i6x into a fully programmable radio, Unlocking its full potential & Adding support for additional protocols.
+- [OpenI6X](https://github.com/OpenI6X/opentx) (Official Github Page)
+- [OpenTX for Flysky-I6X](https://www.rcgroups.com/forums/showthread.php?3916435-FlySky-I6X-port-of-OpenTX) (Official RCGroups Forum Post)
+
+> [!WARNING]  
+> Always create a backup of your factory firmware before flashing custom firmware!
+> Use caution when modifying your radio's firmware!
+> Done improperly can cause the device to become bricked!
 
 ## Storage Specifications (OpenI6X / OpenTX Firmware)
 | RAM Type          | Used      | Max      | Remaining | Usage    |
 |-------------------|-----------|----------|-----------|----------|
 | System RAM        | 15,916 B  | 16,384 B | 468 B     | 97%      |
 | Flash Memory      | 125,500 B | 131,072 B| 5,572 B   | 95%      |
-
 
 <sub>*Source: Openi6X GitHub Issues circa v1.11.1*</sub>
 
