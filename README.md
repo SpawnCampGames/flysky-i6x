@@ -107,7 +107,7 @@ To access the Flysky-i6x Firmware Update Mode:
 - turn Flysky-i6x into a programable radio, unlocking its full potential and adding support for additional protocols.
 - ❓ [RC-Groups Forum OpenTX for Flysky](https://www.rcgroups.com/forums/showthread.php?3916435-FlySky-I6X-port-of-OpenTX)
 
-## Storage Specifications
+## Storage Specifications (OpenI6X / OpenTX Firmware)
 | RAM Type          | Used      | Max      | Remaining | Usage    |
 |-------------------|-----------|----------|-----------|----------|
 | System RAM        | 15,916 B  | 16,384 B | 468 B     | 97%      |
