@@ -24,14 +24,16 @@
 - **Body weight:** 392g
 
 ## MCU (Microcontroller Unit)
-The Fkysky-i6x utilizes a 32-bit microcontroller for its functionallity. Depending on when you purchased your radio it will use:
-- [STM32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html) Series MCU
-- [APM32](https://global.geehy.com/product/fourth/M0+) Series MCU
+The Fkysky-i6x transmitters utilize a 32-bit ARM microcontroller for functionallity. Depending on when you purchased your radio it will use either:
+- The [STM32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html) Series MCU
+- The [APM32](https://global.geehy.com/product/fourth/M0+) Series MCU
 
-Possibly due to chip shortages newer versions of the radio use the APM32 as a replacement for the STM32.
-They may go back to using STM32 but it is possible that they continue to use the APM32.
-Except for different drivers, the two function practically identical, and either/or can have their firmware flashed using binary programmers.
-❔How to identify which board your Flysky-i6x
+> [!NOTE]  
+> Newer versions of the radio use the APM32 as a replacement for the STM32.
+> Although, they may return to using the STM32 it's possible that they continue to use the APM32.
+> Except different DFU drivers, they function practically identical, and both can have their firmware flashed using binary programmers.
+
+❔ How to identify which microcontroller your Flysky-i6x has?
 
 ## Storage Specifications
 | RAM Type          | Space     | 
