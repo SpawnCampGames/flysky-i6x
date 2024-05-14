@@ -2,7 +2,7 @@
 # FlySky i6X Radio Datasheet 🕹️
 > **Unofficial Flysky-i6x Documentation**
 
-## Radio's Factory Specifications 
+## Factory Specifications 
 - **Product Model:** FS- i6X  
 - **Channels:** 6-10 (default 6)  
 - **Wireless frequency:** 2.408 - 2.475GHz (2.4GHz)
@@ -23,9 +23,11 @@
 - **Dimensions:** 174x89x190mm  
 - **Body weight:** 392g
 
+---
+
 ## MCU (Microcontroller Unit)
 
-The Fkysky-i6x transmitter utilizes a 32-bit ARM microcontroller for functionallity. Depending on the date of purchase, it will use either:
+The Fkysky-i6x RC Transmitter utilizes a 32-bit ARM microcontroller for functionallity. Depending on the date of purchase, it will use either:
 - The [STM32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html) Series MCU
 - The [APM32](https://global.geehy.com/product/fourth/M0+) Series MCU
 
@@ -36,14 +38,15 @@ The Fkysky-i6x transmitter utilizes a 32-bit ARM microcontroller for functionall
 >
 > [How to identify which microcontroller your Flysky-i6x has?](https://github.com/SpawnCampGames/flysky-i6x/blob/main/DISASSEMBLY.md#microcontroller-mcu-identification)
 
+---
 
-## Radio's Storage Specifications
+## Storage
 | RAM Type          | Space     | 
 |-------------------|-----------|
 | System RAM        | 16,384 B  |
 | Flash Memory      | 131,072 B |
 
-## Switches 💡
+## Auxillary Switches
 The Flyksy-i6x RC Transmitter comes equipped with:
 - **SWA:** 2-Position Switch
 - **SWB:** 2-Position Switch
@@ -51,6 +54,10 @@ The Flyksy-i6x RC Transmitter comes equipped with:
 - **SWD:** 2-Position Switch
 - **VRA:** Potentiometer (Variable Resistor)
 - **VRB:** Potentiometer (Variable Resistor)
+
+![Flysky-i6X Switch Front](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/FlyskyI6X_Switch_Front.png)
+
+![Flysky-i6X Switch Back](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/FlyskyI6X_Switch_Back.png)
 
 ### Switch Voltages
 | Switch Type | Position | White Wire | Green Wire  | Yellow Wire  |
@@ -88,8 +95,17 @@ The Flyksy-i6x RC Transmitter comes equipped with:
 |--------|----|----|---------|
 | Ground | D+ | D- | Unused  |
 
+---
+
 ## Hidden Factory / System Menu
-This menu is useful for calibrating the gimbal sticks on the Factory Firmware, testing inputs, or checking out the firmware.
+
+![SystemMenu](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Blueprint_Flysky_SystemMenu.png)
+
+To access the Flysky-i6x System Menu: 
+1. Move both gimbals to the **lower left-hand corners.**
+2. While holding gimbals in position flip the *Power* switch to the **On** position.
+
+This menu is useful for calibrating the gimbals on the Factory Firmware, testing inputs, or checking out the firmware.
 - Sticks adjust (Adjust gimbal sticks / reset center position) 
 - Def sticks mode (Set default gimbal stick configuration / Mode1, Mode2 for example)
 - Key test (Screen for testing buttons on the radio)
@@ -102,18 +118,15 @@ This menu is useful for calibrating the gimbal sticks on the Factory Firmware, t
 - Firmware update (Enters firmware update mode)
 - Restart 
 
-To access the Flysky-i6x System Menu: 
-1. Move both gimbals to the **lower left-hand corners.**
-2. While holding gimbals in position flip the *Power* switch to the **On** position.
-
-![SystemMenu](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Blueprint_Flysky_SystemMenu.png)
-
 ## Firmware Update Mode
+
+![FirmwareUpdateMode](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Blueprint_Flysky_FirmwareUp.png)
+
 To access the Flysky-i6x Firmware Update Mode:
 1. Push the two **left-hand** trim buttons towards the LCD screen.
 2. While holding both trim buttons in position flip the *Power* switch to the **On** position.
 
-![FirmwareUpdateMode](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Blueprint_Flysky_FirmwareUp.png)
+---
 
 ## Custom Firmware 💻
 ### OpenI6X (*OpenTX* for Flysky FS-i6X)
