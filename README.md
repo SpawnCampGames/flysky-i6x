@@ -40,6 +40,19 @@ The Fkysky-i6X RC Transmitter utilizes a 32-bit ARM microcontroller for function
 
 ---
 
+## Battery / Power 🔋
+- Designed to be powered by 4 AA batteries
+- Operation range of around **4.8** to **6 volts**
+#### Compatible with:
+- Lithium Polymer (Li-Po) Batteries
+- Lithium Ion (Li-ion) Batteries
+- 18650 Batteries
+
+> [!WARNING]
+> Do not exceed **6 volts** of power input.  
+> Higher voltage may damage your radio.  
+> 2S Battery (ideal)
+
 ## Storage
 | RAM Type          | Space     | 
 |-------------------|-----------|
@@ -56,10 +69,10 @@ The Flyksy-i6x RC Transmitter comes equipped with:
 - **VRB:** Potentiometer (Variable Resistor)
 
 ![Flysky-i6X Switch Front](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Flysky_Switch_Front.png)  
-Radio Front
+<sub>Radio Front **^**</sub>
 
 ![Flysky-i6X Switch Back](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Flysky_Switch_Back.png)  
-Radio Back
+<sub>Radio Back **^**</sub>
 
 ### Switch Voltages
 | Switch Type | Position | White Wire | Green Wire  | Yellow Wire  |
