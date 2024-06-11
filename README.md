@@ -1,6 +1,6 @@
 ![Flysky-i6x Blueprint](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/Blueprint_Flysky.png)
 # FlySky i6X RC Radio Datasheet 🕹️
-> **Unofficial Flysky-i6X Documentation**
+> 📝 **Unofficial Flysky-i6X Documentation**
 
 ## Factory Specifications 
 - **Product Model:** FS- i6X  
