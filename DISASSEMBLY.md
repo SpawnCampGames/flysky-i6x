@@ -1,7 +1,5 @@
 ## To Disassemble the Flysky-i6X 🛠️
-> Disassembly of your radio *may* void the warranty. ⚠️
-
-⬅️ Back to [Flysky-i6X DataSheet / Documentation](https://github.com/SpawnCampGames/flysky-i6x/blob/main/README.md) ...
+> ⚠️ Disassembly of your radio ***may*** void the warranty.
 
 ![Flysky-i6X Disassembly](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/FlyskyI6X_Disassembly.png)
 
