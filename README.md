@@ -163,10 +163,16 @@ Comparison with original firmware:
 | Timers                 | x                 | ✓                               |
 | Voice annoucements     | x                 | [✓][^3]
 
-### APM32 Tools (For Flashing)
+### APM32 Tools and Drivers (For Flashing)
 - APM32 Main Site: https://global.geehy.com/
 - Driver: https://global.geehy.com/uploads/tool/Dfu%20Driver.zip
 - DFU Programmer: https://global.geehy.com/uploads/tool/DFUProgrammer_English.msi
+
+** For the STM32 MCU, Links from the [OpenI6X Github Page](https://github.com/OpenI6X/opentx) work.
+*** APM32 Links can/could be broken or invalid hence why I linked the sources above.
+
+### Compatible Modules and Receivers for FlySky-i6X with (OpenTX) 📡
+- [View List](https://github.com/SpawnCampGames/flysky-i6x/blob/main/COMPATIBILITY-LIST.md)
 
 ### Restore After Flash
 - [Factory Flysky Firmware Update](https://www.flysky-cn.com/i6x-xiazai-1) (exe)
