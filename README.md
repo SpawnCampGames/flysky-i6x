@@ -63,13 +63,14 @@ Radio Back
 
 ### Switch Voltages
 | Switch Type | Position | White Wire | Green Wire  | Yellow Wire  |
-|-------------|----------|-----------------|-----------------|------------------|
-| 3-Way       | Upper    | 2v              | 5v              | 5v               |
-| 3-Way       | Middle   | 2v              | 3.5v            | 5v               |
-| 3-Way       | Lower    | 2v              | 2v              | 5v               |
-|-------------|----------|-----------------|-----------------|------------------|
-| 2-Way       | Upper    | 2v             | 5v             | 5v              |
-| 2-Way       | Lower    | 2v             | 2v             | 5v              |
+|-------------|----------|------------|-------------|--------------|
+| 3-Way       | Upper    | 2v         | 5v          | 5v           |
+|             | Middle   | 2v         | 3.5v        | 5v           |
+|             | Lower    | 2v         | 2v          | 5v           |
+|-------------|----------|------------|-------------|--------------|
+| 2-Way       | Upper    | 2v         | 5v          | 5v           |
+|             | Lower    | 2v         | 2v          | 5v           |
+
 
 > VCC to all Terminals when Radio is **Off**
 
@@ -155,13 +156,13 @@ Comparison with original firmware:
 |------------------------|-------------------|---------------------------------|
 | Channels               | 6/10              | 16                              |
 | Mixers                 | 3                 | 32                              |
-| Models                 | 20                | 16 / unlimited[^2]               |
+| Models                 | 20                | 16 / Unlimited [^2]             |
 | Protocols              | AFHDS, AFHDS2A, PPM | AFHDS2A, PPM, CRSF            |
 | Trainer                | PPM               | SBUS, PPM                       |
-| Logical switches       | x                 | ✓                               |
-| Global variables       | x                 | ✓                               |
-| Timers                 | x                 | ✓                               |
-| Voice annoucements     | x                 | [✓][^3]
+| Logical switches       | ❌                | ✔️                               |
+| Global variables       | ❌                | ✔️                               |
+| Timers                 | ❌                | ✔️                               |
+| Voice annoucements     | ❌                | ✔️ [^3]                          |
 
 ### APM32 Tools and Drivers (For Flashing)
 - APM32 Main Site: https://global.geehy.com/
