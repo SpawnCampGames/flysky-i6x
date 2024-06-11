@@ -1,6 +1,8 @@
 ## To Disassemble the Flysky-i6X 🛠️
 > Disassembly of your radio *may* void the warranty. ⚠️
 
+⬅️ Back to [Flysky-i6X DataSheet / Documentation](https://github.com/SpawnCampGames/flysky-i6x/blob/main/README.md) ...
+
 ![Flysky-i6X Disassembly](https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/FlyskyI6X_Disassembly.png)
 
 **Instructions:**
@@ -39,3 +41,9 @@ How to know which microcontoller your Flysky-i6X has?
 > [!Note]
 > Both MCUs provide identical functionallity for the Flysky-i6X.  
 > Both MCUs can be flashed with custom firmware.
+
+⬅️ Back to [Flysky-i6X DataSheet / Documentation](https://github.com/SpawnCampGames/flysky-i6x/blob/main/README.md) ...
+
+---
+<p align="center"><img src="https://github.com/SpawnCampGames/flysky-i6x/blob/main/doc/FlyskyI6X_Radio_ON.png"></p>
+<p align="center"><sub>- SpawnCampGames Electronics Division 2024 -</sub></p>
